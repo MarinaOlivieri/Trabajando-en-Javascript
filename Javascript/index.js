@@ -1,19 +1,11 @@
-/* Entrega opcinal numero uno*/
+/*Entregable opcional numero dos*/
 
-/*CREANDO TABLA DE MULTIPLICAR*/
+/*TRABAJANDO CON LISTAS*/
 
-// let numero = 9
-// for (let index = 1; index <=10; index++){
-//     let resultado = index * numero
-//     console.log("Resultado de 9 * " + index + " = " + resultado)
-// }
-
-/*TRABAJANDO CON CICLOS*/
-
-// let entrada = prompt("Ingresa tu nombre")
-// while(entrada !== "Santiago"){
-//     entrada = prompt("Ingrese nuevamente su nombre")
-// }
+const lista = ['Angelina', 'Aaron', 'Nicolas', 'Eloy', 'Pablo', 'Marina', 'Gabriela','Walter']
+for (let index = 0; index < 8; index++) {
+    console.log('Nombre: ' + lista[index])    
+}
 
 /* =======================================================*/
 
@@ -38,12 +30,20 @@
 
 /*========================================================*/
 
-/*Entregable opcional numero dos*/
+/* Entrega opcinal numero uno*/
 
-/*TRABAJANDO CON LISTAS*/
+/*CREANDO TABLA DE MULTIPLICAR*/
 
-const lista = ['Angelina', 'Aaron', 'Nicolas', 'Eloy', 'Pablo', 'Marina', 'Gabriela','Walter']
-for (let index = 0; index < 8; index++) {
-    console.log('Nombre: ' + lista[index])    
-}
+// let numero = 9
+// for (let index = 1; index <=10; index++){
+//     let resultado = index * numero
+//     console.log("Resultado de 9 * " + index + " = " + resultado)
+// }
+
+/*TRABAJANDO CON CICLOS*/
+
+// let entrada = prompt("Ingresa tu nombre")
+// while(entrada !== "Santiago"){
+//     entrada = prompt("Ingrese nuevamente su nombre")
+// }
 
